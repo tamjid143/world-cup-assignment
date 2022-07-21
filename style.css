@@ -1,0 +1,150 @@
+/* 
+Assentials and Common Styles
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 10px 0px 0px 0px;
+}
+/* Media Query */
+@media screen and (max-width: 576px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .card-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10% 20% 20% 20%;
+  }
+}
+/* Banner Section */
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: black;
+  color: wheat;
+  margin: 0% 5% 5% 6%;
+}
+.half-width {
+  padding: 5% 5%;
+}
+.half-width h1 {
+  font-size: 40px;
+}
+.half-width p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.half-width button {
+  padding: 15px 40px;
+  border: none;
+  background-color: mediumspringgreen;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+/* card section */
+.card-section {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em 2em 2em;
+  gap: 45px;
+  height: 16em;
+  width: 12em;
+  border-radius: 1em;
+  background-color: black;
+}
+.menu-card a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 15px 30px;
+  text-align: center;
+  border-radius: 1em;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-left: 25px;
+}
+.images img {
+  width: 100%;
+}
+.box {
+  height: 300px;
+  width: 250px;
+  padding: 0px 0px 10px;
+  box-shadow: 5px 5px 100px 2px rgb(184, 180, 180);
+}
+.text {
+  padding: 25px;
+}
+.time-icon {
+  font-size: 15px;
+}
+.comment-icon {
+  margin-left: 30px;
+  font-size: 15px;
+}
+.comment-icon p {
+  margin-left: 10px;
+}
+
+/* Footer */
+.footer-section {
+  margin-top: 50px;
+  padding: 5%;
+  text-align: center;
+  background-color: black;
+  height: 200px;
+  color: white;
+}
+.footer-section hr {
+  margin-top: 50px;
+  width: 800px;
+  height: 0.7px;
+  border: none;
+  background-color: grey;
+}
+.links {
+  margin: 50px 0px 0px 0px;
+}
+.links a {
+  margin: 0px 10px 0px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+/* 2nd Page */
+.flag-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flag-box b {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.match-boxes {
+  text-align: center;
+  background-color: grey;
+  height: 150px;
+  width: 200px;
+  padding: 50px;
+}
